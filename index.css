@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    width: 150px;
+    height: 150px;
+}
+
+td {
+    border: solid;
+    text-align: center;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical_writing{
+    flex-direction: column;
+}
+
+.full_width {
+    width: 100%;
+}
